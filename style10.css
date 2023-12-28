@@ -1,11 +1,13 @@
 *{
     padding: 0;
     margin:0;
+    font-family: netflix-sans;
 }
 .header{
     min-height: 100vh;
     width:100%;
     background-image: url(netflix-img/header-image.png);
+    background-position: cover;
     position: relative;
 }
 
@@ -21,7 +23,7 @@
 nav{
     display:flex;
     justify-content: space-between;
-    padding:20px 8%;
+    padding:20px 12%;
     align-items: center;
 }
 
@@ -32,12 +34,15 @@ nav{
 nav button{
     width:75px;
     height:30px;
+    font-size: 18px;
+    font-weight: 200;
     background-color: red;
     color:white;
     border: none;
     border-radius: 3px;
     margin-left: 8px;
     cursor: pointer;
+    transition:background-color 0.5s;
 }
 
 .language-btn img{
@@ -48,9 +53,70 @@ nav button{
 }
 
 .language-btn{
+    width:90px;
     border: 1px white solid;
     background: transparent;
     padding-left: 5px;
-    
+}
 
+.signup-btn:hover{
+   background-color:  rgba(255, 0, 0, 0.629);
+}
+
+.sub-header{
+    color: white;
+    text-align: center;
+    margin-top:200px;
+}
+
+.main-heading{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+}
+
+.sub-heading{
+    font-size: 22px;
+    margin-top: 20px;
+
+}
+
+.suggestion-line{
+    font-size: 22px;
+    margin-top: 20px;    
+}
+
+.signin-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.email-input{
+    width:380px;
+    height:50px;
+    border:white solid 0.3px;
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 3px;
+    padding-left:12px;
+    font-size: 18px;
+    color: white;
+}
+
+.email-input::placeholder{
+    color:white;
+}
+
+
+.get-started-btn{
+    font-size: 23px;
+    font-weight: 400;
+    border:none;
+    border-radius: 3px;
+    width:190px;
+    height:50px;
+    color: white;
+    background-color: red;
+    margin-left: 10px;
 }
