@@ -17,3 +17,40 @@
     left:0;
     right:0;
 }
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    padding:20px 8%;
+    align-items: center;
+}
+
+.logo{
+    width:150px;
+}
+
+nav button{
+    width:75px;
+    height:30px;
+    background-color: red;
+    color:white;
+    border: none;
+    border-radius: 3px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.language-btn img{
+    display: inline-block;
+    width:12px;
+    margin-left: 4px;
+    margin-right: 6px;
+}
+
+.language-btn{
+    border: 1px white solid;
+    background: transparent;
+    padding-left: 5px;
+    
+
+}
