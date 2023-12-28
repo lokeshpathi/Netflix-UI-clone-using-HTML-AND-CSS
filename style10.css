@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin:0;
+}
+.header{
+    min-height: 100vh;
+    width:100%;
+    background-image: url(netflix-img/header-image.png);
+    position: relative;
+}
+
+.header-layer{
+    background-color: rgba(0,0,0,0.7); 
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
