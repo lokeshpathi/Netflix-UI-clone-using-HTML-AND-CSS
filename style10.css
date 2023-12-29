@@ -61,7 +61,7 @@ nav button{
 }
 
 .signup-btn:hover{
-   background-color:  rgba(255, 0, 0, 0.629);
+   background-color:  rgba(255, 0, 0, 0.729);
 }
 
 .sub-header{
@@ -123,6 +123,11 @@ nav button{
     margin-left: 10px;
     cursor: pointer;
 }
+
+.get-started-btn:hover{
+    background-color:  rgba(255, 0, 0, 0.629);
+}
+
 
 .availability{
     margin-top: 12px;
@@ -222,5 +227,39 @@ nav button{
 }
 
 .feature-3{
+    width:600px;
+}
+
+
+.profiles-for-kids{
+    margin-top: 12px;
+    width:100%;
+    height: 500px;
+    background-color: black;
+    color: white;
+    
+}
+
+.profiles-for-kids-col{
+    display: flex;
+    align-items: center;
+    padding: 0px 12%;
+}
+
+.profiles-for-kids-despcription{
+    text-align:left;
+}
+
+.profiles-for-kids-despcription h1{
+    font-size: 50px;
+}
+
+.profiles-for-kids-despcription p{
+    font-size: 25px;
+    margin-top:10px;
+    line-height: 25px;
+}
+
+.feature-4{
     width:600px;
 }
