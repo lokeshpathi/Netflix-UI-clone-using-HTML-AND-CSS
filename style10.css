@@ -2,6 +2,7 @@
     padding: 0;
     margin:0;
     font-family: netflix-sans;
+    background-color: rgba(0,0,0, 0.5);
 }
 .header{
     min-height: 100vh;
@@ -121,4 +122,37 @@ nav button{
     background-color: red;
     margin-left: 10px;
     cursor: pointer;
+}
+
+.availability{
+    margin-top: 12px;
+    width:100%;
+    height: 500px;
+    background-color: black;
+    color: white;
+    
+}
+
+.availability-col{
+    display: flex;
+    align-items: center;
+    padding: 0px 12%;
+}
+
+.availability-despcription{
+    text-align:left;
+}
+
+.availability-despcription h1{
+    font-size: 50px;
+}
+
+.availability-despcription p{
+    font-size: 25px;
+    margin-top:10px;
+    line-height: 25px;
+}
+
+.feature-1{
+    width:600px;
 }
