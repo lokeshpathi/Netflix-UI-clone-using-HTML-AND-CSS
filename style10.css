@@ -102,6 +102,7 @@ nav button{
     padding-left:12px;
     font-size: 18px;
     color: white;
+    outline-offset: 2px;
 }
 
 .email-input::placeholder{
@@ -119,4 +120,5 @@ nav button{
     color: white;
     background-color: red;
     margin-left: 10px;
+    cursor: pointer;
 }
